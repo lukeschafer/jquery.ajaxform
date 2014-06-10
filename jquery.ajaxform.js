@@ -1,3 +1,9 @@
+/*
+  MIT License
+  Copyright (c) 2014 Luke Schafer luke.schafer@gmail.com
+  https://github.com/lukeschafer/jquery.ajaxform/
+*/
+
 $.fn.ajaxform = function (success, failure, formAttributes) {
     $.fn.ajaxform.increment = ($.fn.ajaxform.increment || 0) + 1;
     
