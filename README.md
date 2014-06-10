@@ -25,6 +25,7 @@ The response must be consumable as text/html. Raw JSON is not supported as it ca
   <pre id='response'>
     { "success": true, "id": 19 }
   </pre>
+```
 
 ##Options
 
