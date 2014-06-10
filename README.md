@@ -17,6 +17,15 @@ Async form post with uploaded file support.
   ).timeout(20000);
 ```
 
+##Response Format:
+
+The response must be consumable as text/html. Raw JSON is not supported as it can be messy with things like JSON-View extensions. **There must be 1 tag with the id 'response' and JSON content**. Best idea is a PRE tag. Example response:
+
+```
+  <pre id='response'>
+    { "success": true, "id": 19 }
+  </pre>
+
 ##Options
 
 ###success callback
